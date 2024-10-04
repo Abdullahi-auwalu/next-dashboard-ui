@@ -79,10 +79,11 @@ const TeachersListPage = () => {
       <td className="hidden lg:table-cell">{item.address}</td>
       <td>
         <div className="flex items-center justify-center gap-2">
-          <Link href={`/list/teachers/${item.id}`} />
-          <button className="flex w-7 h-7 rounded-full items-center justify-center bg-adaSky">
-            <Image src="/view.png" alt="" width={16} height={16} />
-          </button>
+          <Link href={`/list/teachers/${item.id}`}>
+            <button className="flex w-7 h-7 rounded-full items-center justify-center bg-adaSky">
+              <Image src="/view.png" alt="" width={16} height={16} />
+            </button>
+          </Link>
           {role === "admin" && (
             <button className="flex w-7 h-7 rounded-full items-center justify-center bg-adaPurple">
               <Image src="/delete.png" alt="" width={16} height={16} />
