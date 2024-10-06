@@ -16,12 +16,13 @@ const data = [
   {
     name: "Boys",
     count: 55,
-    fill: "#C3EBFA",
+    fill: "#00CCDD",
   },
   {
     name: "Girls",
     count: 45,
-    fill: "#FAE27C",
+    fill: "#E90074",
+    // fill: "#FF71CD",
   },
 ];
 
@@ -57,7 +58,7 @@ const CountChart = () => {
         </ResponsiveContainer>
         <Image
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
-          src="/maleFemale.png"
+          src="/man-woman.png"
           alt=""
           width={50}
           height={50}
@@ -67,12 +68,12 @@ const CountChart = () => {
       {/* BOTTON */}
       <div className="flex justify-center gap-16">
         <div className="flex flex-col gap-1">
-          <div className="w-5 h-5 bg-adaSky rounded-full" />
+          <div className="w-5 h-5 bg-adaYellow rounded-full" />
           <h1 className="font-bold">2,244</h1>
           <h2 className="text-xs text-gray-300">Boys (55%)</h2>
         </div>
         <div className="flex flex-col gap-1">
-          <div className="w-5 h-5 bg-adaYellow rounded-full" />
+          <div className="w-5 h-5 bg-adaPink rounded-full" />
           <h1 className="font-bold">1,244</h1>
           <h2 className="text-xs text-gray-300">Girls (45%)</h2>
         </div>
