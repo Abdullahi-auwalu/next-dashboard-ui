@@ -16,6 +16,7 @@ const config: Config = {
       colors: {
         adaSky: "#D1E9F6",
         adaBlue: "#125B9A",
+        adaOtherBlue: "#00CCDD",
         adaBlueLight: "#C6DCE4",
         adaSkyLight: "#EDF9FD",
         adaPurple: "#CFCEFF",
